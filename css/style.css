@@ -12,7 +12,7 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-ul {
+.navlist {
   list-style-type: none;
   text-align: center;
 }
@@ -24,14 +24,10 @@ ul li {
 
 /*columns*/
 
-.panda {
-
+.plf {
+  list-style-type: none;
 }
 
-.lion {
-
-}
-
-.fox {
-
+.videos {
+  border: 2px solid red;
 }
