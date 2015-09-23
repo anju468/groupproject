@@ -1,16 +1,47 @@
 body {
+  background-color: #FFF5E1;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
   background-color: #ADEBFF;
+  padding: 0 20px;
 }
 
-p {
-
+a {
+  text-decoration: none;
 }
 
-/*header*/
+/*Header*/
 .header {
   text-align: center;
-  font-family: 'Indie Flower', cursive;
 }
+
+h1 {
+  font-size: 400%;
+  margin: 0;
+  padding: 0;
+}
+
+.small {
+  font-size: 55%;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+strong {
+  font-family: arial, sans-serif;
+  font-size: 25px;
+}
+
+/*Navigation*/
 
 .navlist {
   list-style-type: none;
@@ -24,10 +55,28 @@ ul li {
 
 /*columns*/
 
-.plf {
+.section {
+  padding-top: 30px;
+  clear: both;
+}
+
+.columns {
   list-style-type: none;
 }
 
-.videos {
-  border: 2px solid red;
+.columns li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+.columns img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  clear: both;
 }
