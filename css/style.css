@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
 /*Header*/
 .header {
   text-align: center;
@@ -27,7 +32,7 @@ h1 {
   padding: 0;
 }
 
-.small {
+.little {
   font-size: 55%;
 }
 
@@ -43,15 +48,20 @@ strong {
 
 /*Navigation*/
 
-.navlist {
-  list-style-type: none;
-  text-align: center;
+.navbar-default {
+    background-color: #C8F2FF;
+    border: none;
 }
 
-ul li {
-  display: inline;
-  margin: 10px;
+.navbar-nav {
+  text-align: center;
+  width: 100%;
 }
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+  }
 
 /*columns*/
 

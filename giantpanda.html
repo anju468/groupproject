@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/bootstrap.css" media="all" type="text/css" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" media="all" type="text/css" charset="utf-8">
     <title>Giant Panda</title>
   </head>
   <body>
-    <h1> Giant Panda </h1>
+    <div class="wrapper">
+      <h1 class="text-center"> Giant Panda </h1>
 
-    <nav class="nav">
-      <ul>
-        <li> <a href="index.html"> Home</a></li>
-        <li> <a href="http://zoo.sandiegozoo.org/support-us">Support Us </a></li>
-        <li><a href="http://zoo.sandiegozoo.org/follow-us">Follow Us</a></li>
-      </ul>
-    </nav>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-<img src="img/pandalarge.jpg" alt="panda bear eating bamboo" />
+          </div>
 
-<p>  Who can resist the endearing face and lumbering ways of giant pandas? The San Diego Zoo has had a love affair with giant pandas ever since two of them came to visit for 100 days in 1987.  In 1996, we worked out an agreement with China to house two adult pandas and their young offspring. We have three giant pandas, including Xiao Liwu, born on July 2012. They enjoy large exhibit areas with trees, climbing structures, and air-conditioned bedrooms. You’ll enjoy great panda-watching opportunities in the two main enclosures. Next to the panda viewing area is the building that houses the Giant Panda Team, keepers and researchers who observe and study giant panda biology and behavior in an effort to learn all we can about these endangered bears. You can watch our pandas daily on <a href="http://zoo.sandiegozoo.org/cams/panda-cam"> Panda Cam</a>, too! </p>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html"> Home</a>
+              </li>
 
+              <li>
+                <a href="http://zoo.sandiegozoo.org/support-us">Support Us </a>
+              </li>
+
+              <li>
+                <a href="http://zoo.sandiegozoo.org/follow-us">Follow Us</a>
+              </li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="text-center">
+        <img src="img/pandalarge.jpg" alt="panda bear eating bamboo">
+      </div>
+
+      <p>  Who can resist the endearing face and lumbering ways of giant pandas? The San Diego Zoo has had a love affair with giant pandas ever since two of them came to visit for 100 days in 1987.  In 1996, we worked out an agreement with China to house two adult pandas and their young offspring. We have three giant pandas, including Xiao Liwu, born on July 2012. They enjoy large exhibit areas with trees, climbing structures, and air-conditioned bedrooms. You’ll enjoy great panda-watching opportunities in the two main enclosures. Next to the panda viewing area is the building that houses the Giant Panda Team, keepers and researchers who observe and study giant panda biology and behavior in an effort to learn all we can about these endangered bears. You can watch our pandas daily on <a href="http://zoo.sandiegozoo.org/cams/panda-cam"> Panda Cam</a>, too! </p>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
